@@ -14,7 +14,7 @@ export const Header = (props) => {
 
   return (
     <header id="header">
-      <video src={isMobile ? '../img/cellvid.mp4' : '../img/homevid3.mp4'} type="video/mp4" autoPlay loop muted></video>
+      <video src={isMobile ? '../img/cellvid3.mp4' : '../img/homevid4.mp4'} type="video/mp4" autoPlay loop muted></video>
       <img
         src="../img/logowht.png"
         width="50%"
