@@ -27,15 +27,15 @@ export const Contact = (props) => {
   const clearState = () => setState(initialState);
 
   const Showmessage = () => {
-    if(show === false){
+    if (show === false) {
       return (
         <></>
       )
     } else if (show === true) {
       return (
-        <>  
+        <>
           <div className="text-center">
-            <h1>Thank You!<br/>Your Message Has Been Sent!</h1>
+            <h1>Thank You!<br />Your Message Has Been Sent!</h1>
           </div>
         </>
       )
@@ -45,7 +45,7 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`name: ${name}\nemail: ${email}\nmessage: ${message}`);
-    
+
     emailjs
       .sendForm(serviceID, templateID, e.target, public_key)
       .then(
@@ -69,15 +69,27 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Contact Us</h2>
+                <h2>No Borders Ticket Giveaway</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  Please fill out the form below to enter the "No Borders" ticket giveaway contest. To be eligible to win you must be over 18 and follow @thedjavalanche and @radiance.productions on Instagram then complete the form below.  Winners will be announced and contacted on Wednesday October 9th, 2024. 
+                </p>
+                <img
+                  src="../img/NoBorders.jpeg"
+                  width="75%"
+                  top="50"
+                  letf="50"
+                  
+                  alt="No Borders Image"
+                />
+                <p>Listen To: {" "}
+                <a href="https://www.youtube.com/watch?v=nKRwD76iVR8" rel="nofollow">
+                 "No Borders" Soca Mix by Dj Avalanche
+            </a>
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-4">
                     <div className="form-group">
                       <input
                         type="text"
@@ -91,7 +103,21 @@ export const Contact = (props) => {
                       <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-4">
+                    <div className="form-group">
+                      <input
+                        type="text"
+                        id="igname"
+                        name="igname"
+                        className="form-control"
+                        placeholder="Instagram Username"
+                        required
+                        onChange={handleChange}
+                      />
+                      <p className="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
                     <div className="form-group">
                       <input
                         type="email"
@@ -106,21 +132,9 @@ export const Contact = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="form-group">
-                  <textarea
-                    name="message"
-                    id="message"
-                    className="form-control"
-                    rows="4"
-                    placeholder="Message"
-                    required
-                    onChange={handleChange}
-                  ></textarea>
-                  <p className="help-block text-danger"></p>
-                </div>
                 <div id="success"></div>
                 <Button type="submit" className="btn btn-custom btn-lg" onSubmit={handleChange}>
-                  Send Message
+                  Submit
                 </Button>
               </form>
               <Showmessage />
@@ -128,7 +142,7 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>Booking Info</h3>
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
@@ -191,3 +205,18 @@ export const Contact = (props) => {
     </div>
   );
 };
+
+/**
+ *  <div className="form-group">
+                  <textarea
+                    name="message"
+                    id="message"
+                    className="form-control"
+                    rows="4"
+                    placeholder="Message"
+                    required
+                    onChange={handleChange}
+                  ></textarea>
+                  <p className="help-block text-danger"></p>
+                </div>
+ */

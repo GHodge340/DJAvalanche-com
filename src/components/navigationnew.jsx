@@ -47,13 +47,8 @@ export const Navigationnew = (props) => {
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll">
-                Booking
-              </a>
-            </li>
-            <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Ticket Giveaway
               </a>
             </li>
           </ul>
@@ -62,3 +57,11 @@ export const Navigationnew = (props) => {
     </nav>
   );
 };
+
+/**
+ * <li>
+              <a href="#team" className="page-scroll">
+                Booking
+              </a>
+            </li>
+ */

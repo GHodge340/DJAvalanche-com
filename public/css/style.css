@@ -609,6 +609,9 @@ label {
   color: #608dfd;
   background: #fff;
 }
+#contact a {
+  color: #f6f6f6
+}
 /* Footer Section*/
 #footer {
   background: #f6f6f6;

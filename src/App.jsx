@@ -31,10 +31,13 @@ const App = () => {
       <About data={landingPageData.About} />
       <Music data={landingPageData.Music} />
       <Gallery data={landingPageData.Gallery} />
-      <Team data={landingPageData.Team} />
+      
       <Contact data={landingPageData.Contact} />
     </div>
   );
 };
 
 export default App;
+/**
+ * <Team data={landingPageData.Team} />
+ */
