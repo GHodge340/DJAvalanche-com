@@ -10,10 +10,10 @@ export const Contact = (props) => {
   const initialState = {
     name: "",
     email: "",
-    message: "",
+    igname: "",
   };
 
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, igname, message }, setState] = useState(initialState);
   const [show, setShow] = useState(false);
 
   const serviceID = "service_ippipce"
@@ -44,7 +44,7 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(`name: ${name}\nemail: ${email}\nmessage: ${message}`);
+    console.log(`name: ${name}\nemail: ${email}\nigname: ${igname}`);
 
     emailjs
       .sendForm(serviceID, templateID, e.target, public_key)
