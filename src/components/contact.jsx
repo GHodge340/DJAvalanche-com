@@ -18,7 +18,7 @@ export const Contact = (props) => {
 
   const serviceID = "service_ippipce"
   const templateID = "template_3mqfueh"
-  const public_key = "HswFhGsMEnpZ-s4vo"
+  const public_key = "teP6eGO0Qzkrt3D4I"
 
   const handleChange = (e) => {
     const { name, value } = e.target;
