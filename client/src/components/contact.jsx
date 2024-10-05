@@ -49,7 +49,7 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(`name: ${name}\nemail: ${email}\nigname: ${igname}`);
     const pass_message = `Name: ${name}\nEmail: ${email}\nIgName: ${igname}`
-    axios.get("http://localhost:5000", {
+    axios.get("http://localhost:3000", {
       params: {
         message: pass_message
       }
