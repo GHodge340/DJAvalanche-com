@@ -1,0 +1,276 @@
+{
+  "Header": {
+    "title": "",
+    "paragraph": ""
+  },
+  "About": {
+    "paragraph": "DJ Avalanche, multi-award winning International Producer/DJ has toured and produced many hits songs with top Caribbean artists like Bunji Garlin, Machel Montano, Patrice Roberts, Problem Child, Pumpa and much more...\n\nAs one of the most sought after DJ's in the Caribbean traveling throughout the world, winning Heineken's first Caribbean DJ competition, multiple Best of the VI Awards, Addy Awards, Uber Soca's Best Caribbean DJ and Keys to the US Virgin Islands.\n\nFeatured on BET's College Hill, Tempo Television's Pull Up Selecta, and recently Caribbean Hot Ones Dj Avalanche the former Heineken Dj Champion recieved multiple Best DJ of the Virgin Islands awards, UberSoca Best Caribbean Dj Award and the Key's of the Virgin Island's for his musical achievements including producing Grenada's Roadmarch 2022, Trinidad's Roadmarch 2023, St. Vincent and Tortola's Roadmarch for 2024.",
+    
+    "Why": [
+      "2003 - Heineken Dj Champion",
+      "2008 - 2018 USVI Best Of VI Dj (10x's)",
+      "2018 - Ubersoca Best Caribbean Dj",
+      "2022 - Produced Roadmarch of Grenada"
+    ],
+    "Why2": [
+      "2023 - Produced Roadmarch of Trinidad",
+      "2024 - Produced Roadmarch of St. Vincent",
+      "2024 - Produced Roadmarch of Tortola",
+      "2024 - Awarded USVI Keys to the City" 
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Dj Avalanche in Atlanta",
+      "largeImage": "img/gallery/lg/0.jpg",
+      "smallImage": "img/gallery/sm/0.jpg"
+    },
+    {
+      "title": "Dj Avalanche in Haiti (UberSoca)",
+      "largeImage": "img/gallery/lg/1.jpg",
+      "smallImage": "img/gallery/sm/1.jpg"
+    },
+    {
+      "title": "Dj Avalanche in Amsterdam",
+      "largeImage": "img/gallery/lg/3.jpg",
+      "smallImage": "img/gallery/sm/3.jpg"
+    },
+    {
+      "title": "Dj Avalanche in New York (Soca Brainwash)",
+      "largeImage": "img/gallery/lg/8.jpg",
+      "smallImage": "img/gallery/sm/8.jpg"
+    },
+    {
+      "title": "Dj Avalanche in D.C.",
+      "largeImage": "img/gallery/lg/5.jpg",
+      "smallImage": "img/gallery/sm/5.jpg"
+    },
+    {
+      "title": "Dj Avalanche in Virgin Islands",
+      "largeImage": "img/gallery/lg/6.jpg",
+      "smallImage": "img/gallery/sm/6.jpg"
+    },
+    {
+      "title": "Dj Avalanche in Europe",
+      "largeImage": "img/gallery/lg/4.jpg",
+      "smallImage": "img/gallery/sm/4.jpg"
+    },
+    {
+      "title": "Dj Avalanche in Turks (UberSoca)",
+      "largeImage": "img/gallery/lg/2.jpg",
+      "smallImage": "img/gallery/sm/2.jpg"
+    },
+    {
+      "title": "Dj Avalanche in St. Kitts Nevis",
+      "largeImage": "img/gallery/lg/9.jpeg",
+      "smallImage": "img/gallery/sm/9.jpeg"
+    }
+  ],
+  "Music": [
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6a/de/80/6ade8022-25aa-e6ed-059e-ea82d4170634/198500613056.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/problem-dat-single/1740427932",
+      "name" : "Problem Dat - Asa Banton"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6e/78/98/6e78984f-554c-346b-e40c-ea7f46a1f579/artwork.jpg/592x592bb.webp",
+    "link": "https://music.apple.com/us/album/workout-feat-adam-o/1756529766?i=1756529767",
+    "name": "Workout - Jougo Ft. Adam O"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/83/f1/0d83f157-ce94-6a6b-53e7-916eb4e70e37/5667.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/mad-bad-riddim-ep/1744024541",
+      "name": "Mad & Bad Riddim - Var. Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/96/c5/99/96c59961-5938-31d9-aa27-a95275474e32/5655.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/the-carnival-jumbies-experiment-ep/1743288468",
+      "name": "Carnival Jumbie - Var. Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/05/13/a305138b-c329-94c7-8f69-fbf33873533b/5763.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/wild-crocz-riddim-ep/1749176287",
+      "name": "Wild Crocz Riddim"
+    },
+    { 
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/47/fd/c947fd09-1809-88ba-f538-23d3d84a5419/197077881172_cover.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/hard-fete/1655958107?i=1655958108",
+      "name": "Bunji Garlin - Hard Fete"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/28/05/0a/28050a83-b915-cd28-5c49-512f60dab9d6/859767867322_cover.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/the-a-list/1655996940?i=1655996943",
+      "name": "Pumpa - A List"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ca/b2/1b/cab21bf2-640e-4fed-321d-c098acef26d7/197773299387_cover.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/do-what-yuh-want/1692802868?i=1692802869",
+      "name": "Do What You Want"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/b1/f9/a3b1f92a-7252-16c0-4710-cd112e65c911/5628.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/go-mode-riddim-ep/1740860011",
+      "name": "Go Mode Riddim - Var. Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8c/2e/45/8c2e45c0-802f-7034-184f-85df1b3fdedd/198342360842_cover.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/which-side-you-reppin/1736653860?i=1736653861",
+      "name": "Which Side - King James"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Video221/v4/af/d1/c7/afd1c79a-a91c-3723-881c-0a6639d2ad83/Job4b27d5b8-7565-497d-a73f-4455626ac178-165224342-PreviewImage_Preview_Image_Intermediate_nonvideo_sdr_320802861_1723370771-Time1711404649357.png/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/coulda-shoulda-riddim-ep/1737889207",
+      "name": "Coulda Shoulda Riddim"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b0/48/b0/b048b069-82fb-54d2-d581-8bc92f2de9fa/197999905215_cover.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/real-stink-riddim-single/1725583757",
+      "name":  "Real Stink Riddim - Var Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ad/67/b3/ad67b309-c95d-42ab-3238-2e09565f9272/artwork.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/16-oz/1490864514?i=1490864515",
+      "name":  "16oz. - Dj Avalanche"
+    },
+    { 
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/54/a8/6554a87e-f5be-b273-bf23-a0b53c0ac171/4426.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/vanguard-riddim-ep/1642220487",
+      "name": "Vanguard Riddim - Var Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fe/0d/2b/fe0d2bbb-14b0-c123-16f3-c00e8de923dd/5060.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/festival-of-fire-riddim-ep/1692864280",
+      "name": "Festival of Fire - Var Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/36/c7/62/36c7622d-4445-93c6-1e82-7fe235abc80a/4493.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/mad-opera-riddim-ep/1642225249",
+      "name": "Mad Operah Riddim - Various Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/8a/b0/3e8ab0dd-937b-5467-4729-cc3b38006793/194690871313_cover.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/big-cup-riddim-ep/1653658004",
+      "name": "Big Cup Riddim - Various Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a9/97/e9/a997e968-6358-a0b5-5ab1-23ba74b95509/197999813527_cover.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/do-you-riddim-ep/1723240166",
+      "name": "Do You Riddim - Various Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5d/0d/75/5d0d7501-4785-eb5e-f76b-4beaadd06e81/5082.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/dasheen-bush-riddim-ep/1693439173",
+      "name": "Dasheen Bush Riddim - Various Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/a2/25/26/a225268f-e10a-fc80-60e4-899b86e0311e/197999888556_cover.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/greatness-feat-problem-child/1725376919?i=1725376921",
+      "name": "Greatness - Fay Ann Lyons/Problem Child"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/60/ef/4f/60ef4fc7-fb19-c2b8-020d-bb9ce0b78525/5451.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/mash-up-day-single/1723385786",
+      "name": "Mashup Day - Iwer George/Problem Child/Sekon Sta"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/81/65/d7/8165d7c5-e503-f93a-d984-3f9bbdaad63e/4291.jpg/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/black-skull-riddim-single/1642212839",
+      "name": "Blackskull Riddim - Various Artist"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/17/3d/82/173d827e-6d9e-8616-55ac-102c15c4279b/602581733720.png/592x592bb.webp",
+      "link": "https://music.apple.com/us/album/go-so/1694540724?i=1694540726",
+      "name": "Go So - Ricardo Drue/Claudette Peters"
+    },
+    {
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/79/59/b3/7959b35e-b9e5-ae7a-7fe8-dfff2f6f85a1/0.jpg/592x592bb.webp",
+      "link":  "https://music.apple.com/us/album/boil-bubble-riddim-ep/1614873020",
+      "name": "Boil & Bubble Riddim - Various Artist"
+    }  
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/07.png",
+      "name": "Jelani Hunte",
+      "job": "Booking Agent (USA/Caribbean)",
+      "contact": "813-789-3865",
+      "social": "https://www.instagram.com/just_topnotch/"
+    },
+    {
+      "img": "img/team/06.png",
+      "name": "Marcus Browne",
+      "job": "Booking Agent (Caribbean)",
+      "contact": "340-643-7637",
+      "social": "https://www.instagram.com/marcus_browne/"
+    },
+    {
+      "img": "img/team/05.png",
+      "name": "Duncan Van Heyningen",
+      "job": "Booking Agent (Europe)",
+      "contact": "721-520-4664",
+      "social": "https://www.instagram.com/deviage/"
+    }
+  ],
+  "Contact": {
+    "address": "St. Thomas, USVI 00802 ",
+    "phone": "340-203-0675",
+    "email": "thedjavalanche@gmail.com",
+    "facebook": "https://www.facebook.com/TheDjAvalanche",
+    "twitter": "https://twitter.com/thedjavalanche",
+    "youtube": "https://www.youtube.com/channel/UCFyJ6nE3bXF3zcxXTTbcnpA"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}

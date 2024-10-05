@@ -1,6 +1,7 @@
 
 import { useState } from "react";
 import emailjs from "emailjs-com";
+import nodemailer from "nodemailer";
 import Button from 'react-bootstrap/Button';
 import React from "react";
 import axios from "axios";
@@ -20,6 +21,8 @@ export const Contact = (props) => {
   const serviceID = "service_ippipce"
   const templateID = "template_3mqfueh"
   const public_key = "teP6eGO0Qzkrt3D4I"
+
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -48,8 +51,67 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`name: ${name}\nemail: ${email}\nigname: ${igname}`);
-    const pass_message = `Name: ${name}\nEmail: ${email}\nIgName: ${igname}`
-    axios.get("http://localhost:3000", {
+    const pass_message = `Name: ${name}\nEmail: ${email}\nIgName: ${igname}`;
+  
+    //Nodemailer
+  const sendEmail = () => {
+    let date = new Date();
+    let time = date.toLocaleTimeString();
+    let day = date.toLocaleDateString();
+    const greeting = "Hello Avalanche Team!\n\nYou got a new message from djavalanche.com:\n"
+    var transporter = nodemailer.createTransport({
+        host: 'smtp.zoho.com',
+        port: 465,
+        secure: true,
+        auth: {
+            user: 'marketwatchers@zohomail.com',//'avalawnch@hotmail.com',
+            pass: 'July1979!' // 'unusualtrail816'
+        }
+    });
+
+    var mailOptions = {
+        from: '"Market Watchers 💰" <marketwatchers@zohomail.com>',
+        to: 'GHodge.vi@gmail.com',
+        bcc: 'thedjavalanche@gmail.com',
+        cc: '',
+        subject: 'Message From DJAvalanche.com',
+        text: greeting + `\n\n${pass_message}\nMessage Sent: ` + time + " " + day
+    };
+
+    transporter.sendMail(mailOptions, function (error, info) {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log(`\nEmail Report`);
+            console.log(`==================================`)
+            console.log('Successful Email sent: \n');
+            console.log(`==================================`)
+            setShow(true);
+      Showmessage();
+      clearState();
+        }
+    });
+
+}
+sendEmail();
+    
+    /**
+     * emailjs
+      .sendForm(serviceID, templateID, e.target, public_key)
+      .then(
+        (result) => {
+          console.log(`Email JS Response`)
+          console.log(result.text);
+          setShow(true);
+          clearState();
+
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      ///////////////////////////////////
+      axios.get("http://localhost:3000", {
       params: {
         message: pass_message
       }
@@ -66,24 +128,12 @@ export const Contact = (props) => {
       clearState();
       
     })
-    /**
-     * emailjs
-      .sendForm(serviceID, templateID, e.target, public_key)
-      .then(
-        (result) => {
-          console.log(`Email JS Response`)
-          console.log(result.text);
-          setShow(true);
-          clearState();
-
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
 
      */
   };
+
+  
+
   return (
     <div>
       <div id="contact">
