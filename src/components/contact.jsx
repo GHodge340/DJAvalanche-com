@@ -15,7 +15,7 @@ export const Contact = (props) => {
   };
 
   const [{ name, email, igname}, setState] = useState(initialState);
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState("blank");
 
   const serviceID = "service_ippipce"
   const templateID = "template_3mqfueh"
@@ -31,11 +31,12 @@ export const Contact = (props) => {
   const clearState = () => setState(initialState);
 
   const Showmessage = () => {
-    if (show === false) {
+    if (show === "blank") {
       return (
         <></>
       )
-    } else if (show === true) {
+    }
+    if (show === "sent") {
       return (
         <>
           <div className="text-center">
@@ -44,65 +45,40 @@ export const Contact = (props) => {
         </>
       )
     }
+    if (show === "notsent"){
+      return(
+        <>
+        <div className="text-center">
+          <h1>I'm Sorry.<br />Your Message Was Not Sent!<br />Try again later..</h1>
+        </div>
+      </>
+      )
+    }
   }
 
-  //Enter Axios Info here...
+  //Emailjs Info here...
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(`name: ${name}\nemail: ${email}\nigname: ${igname}`);
     const pass_message = `Name: ${name}\nEmail: ${email}\nIgName: ${igname}`;
-    
-    axios.get("http://34.226.122.111:3000", {
-      params: {
-        message: pass_message
-      }
-    }).then(() => {
-      //success
-      console.log("success");
-      setShow(true);
-      Showmessage();
-      clearState();
-    })
-    .catch((e) => {
-      console.log("failure");
-      console.log(e);
-    });
-    
-    /**
-     * emailjs
+  
+    emailjs
       .sendForm(serviceID, templateID, e.target, public_key)
       .then(
         (result) => {
           console.log(`Email JS Response`)
           console.log(result.text);
-          setShow(true);
+          setShow("sent");
           clearState();
 
         },
         (error) => {
           console.log(error.text);
+          setShow("notsent");
+          clearState();
         }
       );
-      ///////////////////////////////////
-      axios.get("http://localhost:3000", {
-      params: {
-        message: pass_message
-      }
-    }).then(()=>{
-      console.log("success");
-      setShow(true);
-      Showmessage();
-      clearState();
-    }).catch((e)=>{
-      console.log("error");
-      console.log(e);
-      setShow(true);
-      Showmessage();
-      clearState();
-      
-    })
-
-     */
+     
   };
 
   return (
